@@ -9,7 +9,7 @@ const _ = require ("lodash");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-mongoose.set('strictQuery,false');
+//mongoose.set('strictQuery,false');
 
 app.set('view engine', 'ejs');
 
